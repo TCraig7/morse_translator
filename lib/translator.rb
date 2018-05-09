@@ -1,5 +1,3 @@
-require 'pry'
-
 class Translator
 
   def initialize(dictionary)
@@ -43,10 +41,9 @@ class Translator
   end
 
   def dictionary
-    @dictionary = dictionary
+    @dictionary
   end
 
-puts dictionary
   # def convert_to_array
   #   dictionary.to_a.join(' ')
   # end
