@@ -42,8 +42,8 @@ class Translator
                     " " => " "}
   end
 
-  def eng_to_morse
-    
+  def
+  def eng_to_morse(string_morse)
 
   end
 end
