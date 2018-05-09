@@ -8,7 +8,7 @@ class TranslatorTest < Minitest::Test
     assert_instance_of Translator, translator
   end
 
-
+  def 
 
   def test_eng_to_morse
     translator = Translator.new("hello world")
