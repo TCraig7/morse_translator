@@ -1,7 +1,9 @@
+require 'pry'
+
 class Translator
 
   def initialize
-    @dictionary = {"a" => ".-",
+    @dictionary = { "a" => ".-",
                     "b" => "-...",
                     "c" => "-.-.",
                     "d" => "-..",
@@ -38,5 +40,10 @@ class Translator
                     "9" => "----.",
                     "0" => "-----",
                     " " => " "}
+  end
+
+  def eng_to_morse
+    
+
   end
 end
