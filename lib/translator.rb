@@ -1,9 +1,8 @@
-
+require 'pry'
 
 class Translator
-  attr_reader   :dictionary
 
-  def initialize
+  def initialize(dictionary)
     @dictionary = { "a" => ".-",
                     "b" => "-...",
                     "c" => "-.-.",
@@ -44,11 +43,10 @@ class Translator
   end
 
   def dictionary
-    @dictionary
+    @dictionary = dictionary
   end
 
-  puts dictionary
-
+puts dictionary
   # def convert_to_array
   #   dictionary.to_a.join(' ')
   # end
