@@ -1,6 +1,7 @@
-require 'pry'
+
 
 class Translator
+  attr_reader   :dictionary
 
   def initialize
     @dictionary = { "a" => ".-",
@@ -42,8 +43,17 @@ class Translator
                     " " => " "}
   end
 
-  def
-  def eng_to_morse(string_morse)
-
+  def dictionary
+    @dictionary
   end
+
+  puts dictionary
+
+  # def convert_to_array
+  #   dictionary.to_a.join(' ')
+  # end
+  # puts convert_to_array
+  # def eng_to_morse
+  #
+  # end
 end
